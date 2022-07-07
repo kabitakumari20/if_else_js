@@ -19,3 +19,18 @@ else if (b>a){
         console.log(c,"c is max")
     }
 }
+
+
+
+var a =14
+var b=84
+var c =22
+if (a>b && b>c && a>c){
+    console.log("max number a" ,a )
+}
+else if(b>a && b>c){
+    console.log("max number b",b)
+}
+else if(c>a && c>b){
+    console.log("max number c",c)
+}
