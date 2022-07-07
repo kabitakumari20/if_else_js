@@ -33,4 +33,16 @@ else if(b>a && b>c){
 }
 else if(c>a && c>b){
     console.log("max number c",c)
+    
+    
+    
+    
+    
+ var a = 9
+var b = 8
+a = a + b
+b = a - b
+a = a - b
+
+console.log("a",a,"b",b)
 }
