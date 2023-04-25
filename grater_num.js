@@ -15,3 +15,22 @@ else{
 
 
 
+
+var rlSync =require('readline-sync')
+var a =rlSync.questionInt('what is your a---:')
+var b =rlSync.questionInt('what is your b---:')
+var c =rlSync.questionInt('what is your c---:')
+if(a>b){
+    if(a>c){
+        console.log(a,'a bada hai')
+    }
+}
+else if(b>c){
+    if(b>a){
+        console.log(b,'b bada hai')
+    }
+}
+else {
+    console.log(c,'c bada hai')
+}
+
